@@ -31,12 +31,24 @@
 
 ---
 # 실행 방법
-### - 파일 위치
-다운받은 파일을 /var/www/html/Web/<br>
-에 저장해준다. <br>
+Web 파일에 들어있는 코드를 다음 위치로 옮겨줍니다.
+/var/www/html/Web
 
 ### - 동영상 설정
-Web/ 과 /static/inputVideo/ 에 (가이드라인 영상)lecture{i}.mp4를 추가하여 준다.
-/static/video/ 에 (입모양 점수 비교 기준 영상)lecture{i}.mp4와 (입모양 표시 된 영상) lecture{i}\_lip.mp4를 추가해 준다.
+Web/ 과 /static/inputVideo/ 에 (가이드라인 영상)lecture{i}.mp4를 추가하여 준다.<br>
+/static/video/ 에 (입모양 점수 비교 기준 영상)lecture{i}.mp4와 (입모양 표시 된 영상) lecture{i}\_lip.mp4를 추가해 준다.<br>
 
 현 코드에서는 초상권 보호로 영상을 올려 놓지 않았습니다.
+
+### - 실행
+
+flask코드가 들어있는 파일로 이동 후 터미널에서 실행을 시켜줍니다.
+
+```
+flask run
+```
+
+실행된 채로 Chrome에 접속해
+
+http://0.0.0.0:5000/
+주소로 이동한 후 첫번째 페이지가 나옵니다.
