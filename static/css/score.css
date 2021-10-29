@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'NanumSquareOTFBold';
+  src: url("font/NanumSquareOTFBold.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+*{ 
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  html,body{ 
+    height: 100%; 
+    font-family: 'NanumSquareOTFBold', 'Noto Sans KR', sans-serif;
+    background: #f8f8f8;
+  }
+  
+  .img_q{
+    position: relative;
+    left: 18%;
+    width: 20%;
+    height: auto;
+    z-index: 1;
+    opacity: 0.5;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  button,a{ 
+    border: none; 
+    font-size: 20px; 
+    background: #ccc; 
+    padding: 0.5rem 1rem; 
+    cursor: pointer; 
+  }
+
+  .myscore{
+    position: absolute;
+    text-align: center;
+    top: 5%;
+    left: 30%;
+    z-index: 2;
+  }
+
+  h1.score1{
+    color: #0f2770;
+    font-size: 80px;
+    font-weight: 900;
+    z-index: 2;
+  }
+
+  h1.score2{
+    color: #0f2770;
+    font-size: 120px;
+    font-weight: 900;
+    z-index: 2;
+  }
+
+  .buttons{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

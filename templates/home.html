@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Cache-Control" content="no-store"/>
+    <meta http-equiv="Expires" content="-1"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <title>바름스픽</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+  </head>
+  <body>
+    <div>
+      <div class="left">
+        <table>
+          <tr><!-- 첫번째 줄 시작 -->
+              <td >First lecture</td>
+              <td>I have a fox<br><a href="guideline1">학습하러 가기 →</a></td>
+          </tr><!-- 첫번째 줄 끝 -->
+          <tr><!-- 두번째 줄 시작 -->
+              <td>Second lecture</td>
+              <td>I have a box<br><a href="guideline2">학습하러 가기 →</a></td>
+          </tr><!-- 두번째 줄 끝 -->
+          <tr><!-- 두번째 줄 시작 -->
+            <td>Third lecture</td>
+            <td>I have a vase<br><a href="guideline3">학습하러 가기 →</a></td>
+          </tr><!-- 두번째 줄 끝 -->
+          <tr><!-- 세번째 줄 시작 -->
+            <td>Fourth lecture</td>
+            <td>More words<br><a href="guideline4">학습하러 가기 →</a></td>
+          </tr><!-- 세번째 줄 끝 -->
+        </table>
+      </div>
+      <div class="right">
+        <img src="{{ url_for('static', filename='img/barum_highlight.png') }}" class="img_logo"/>
+      </div>
+    </div>
+  </body>
+</html>
